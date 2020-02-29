@@ -4028,6 +4028,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     padding: 3rem;
     width: 100%;
   }
+
+  #main .avatar {
+    size: 70%;
+  }
 }
 
 @media screen and (max-width: 980px) {
