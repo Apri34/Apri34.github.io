@@ -4071,12 +4071,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 @media screen and (max-width: 480px) {
   #main {
-    width: 60%;
-  }
-
-  #main .avatar:before {
-    left: -2em;
-    width: calc(100% + 4em);
+    width: 100%;
   }
 }
 
