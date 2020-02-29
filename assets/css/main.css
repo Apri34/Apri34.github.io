@@ -4073,6 +4073,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #main {
     width: 100%;
   }
+
+  #main .avatar:before {
+    left: -2em;
+    width: calc(100% + 4em);
+  }
 }
 
 /* Footer */
