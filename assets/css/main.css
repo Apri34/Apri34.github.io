@@ -4030,7 +4030,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 
   #main .avatar {
-    size: 70%;
+    size: 30%;
   }
 }
 
