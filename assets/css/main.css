@@ -4019,14 +4019,25 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-top-width: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  #main > .posts > * {
+    width: 100%;
+  }
+
+  #main > .posts > * {
+    padding: 3rem;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 980px) {
   #main > .posts > * {
-    width: 50%;
+    width: 100%;
   }
 
   #main > .posts > * {
     padding: 2.5rem;
-    width: 50%;
+    width: 100%;
   }
 }
 
