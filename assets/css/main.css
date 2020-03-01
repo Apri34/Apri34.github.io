@@ -3973,6 +3973,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   margin: 0 auto;
   border-radius: 100%;
   box-shadow: 0 0 0 1.5em #ffffff;
+  width: 100%;
+  max-width: 350px;
 }
 
 #main > * {
@@ -4153,12 +4155,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 @media screen and (max-width: 480px) {
   #main {
-    width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  #main .avatar {
     width: 100%;
   }
 }
