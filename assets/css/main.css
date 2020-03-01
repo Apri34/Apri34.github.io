@@ -4157,8 +4157,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 }
 
-@media (max-width: 480px) {
-  #main .avatar img {
+@media (max-width: 767px) {
+  #main .avatar {
     width: 100%;
   }
 }
