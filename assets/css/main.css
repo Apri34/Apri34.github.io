@@ -3969,6 +3969,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #main .avatar img {
   display: block;
+  align-self: center;
   margin: 0 auto;
   border-radius: 100%;
   box-shadow: 0 0 0 1.5em #ffffff;
@@ -4013,19 +4014,13 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 
   #main > .avatar img {
-    width: 80%;
-    height: auto;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 736px) {
   #main > .post {
     padding: 4rem 2rem 2rem 2rem;
-  }
-
-  #main > .avatar img {
-    width: 60%;
-    height: auto;
   }
 
   #main > .post header.major > .date {
@@ -4108,11 +4103,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     padding: 3rem;
     width: 100%;
   }
-
-  #main > .avatar img {
-    width: 75%;
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 980px) {
@@ -4123,11 +4113,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #main > .posts > * {
     padding: 2.5rem;
     width: 100%;
-  }
-
-  #main > .avatar img {
-    width: 70%;
-    height: auto;
   }
 }
 
@@ -4173,11 +4158,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 @media screen and (max-width: 480px) {
   #main {
     width: 100%;
-  }
-
-  #main > .avatar img {
-    width: 50%;
-    height: auto;
   }
 }
 
