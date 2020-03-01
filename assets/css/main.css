@@ -3891,6 +3891,76 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   z-index: 2;
 }
 
+#main .skills div {
+  margin: 10px 0;
+  margin-top: 30px;
+}
+
+#main .skills div h3 {
+  text-align: left;
+}
+
+#main .skill-bar {
+  background: #353b58;
+  display: block;
+  height: 10px;
+}
+
+#main .skill-bar span {
+  height: 10px;
+  float: left;
+  background: #8deeee;
+}
+
+#main .skill1 {
+  width: 90%;
+  animation: skill1 2s;
+}
+#main .skill2 {
+  width: 80%;
+  animation: skill2 2s;
+}
+#main .skill3 {
+  width: 60%;
+  animation: skill3 2s;
+}
+#main .skill4 {
+  width: 55%;
+  animation: skill4 2s;
+}
+@keyframes skill1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes skill2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes skill3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes skill4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
 #main .avatar {
   position: relative;
   display: block;
@@ -3941,11 +4011,21 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #main > .post {
     padding: 6rem 4rem 4rem 4rem;
   }
+
+  #main > .avatar img {
+    width: 80%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 736px) {
   #main > .post {
     padding: 4rem 2rem 2rem 2rem;
+  }
+
+  #main > .avatar img {
+    width: 60%;
+    height: auto;
   }
 
   #main > .post header.major > .date {
@@ -4028,6 +4108,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     padding: 3rem;
     width: 100%;
   }
+
+  #main > .avatar img {
+    width: 75%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -4038,6 +4123,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #main > .posts > * {
     padding: 2.5rem;
     width: 100%;
+  }
+
+  #main > .avatar img {
+    width: 70%;
+    height: auto;
   }
 }
 
@@ -4083,6 +4173,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 @media screen and (max-width: 480px) {
   #main {
     width: 100%;
+  }
+
+  #main > .avatar img {
+    width: 50%;
+    height: auto;
   }
 }
 
