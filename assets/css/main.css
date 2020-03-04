@@ -4052,6 +4052,30 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 }
 
+#main .app-screenshots img {
+  width: 100%;
+}
+
+@media screen and (min-width: 960px) {
+  #main .app-screenshots {
+    white-space: nowrap;
+    display: inline;
+  }
+
+  #main .app-screenshots img {
+    width: 50%;
+  }
+}
+
+#main .app-screenshots-two img {
+  width: 100%;
+  max-width: 500px;
+}
+
+#main .app-description {
+  text-align: left;
+}
+
 #main .avatar {
   position: relative;
   display: block;

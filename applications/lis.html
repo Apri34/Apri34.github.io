@@ -16,26 +16,64 @@
     <noscript><link rel="stylesheet" href="../assets/css/noscript.css"/></noscript>
   </head>
   <body class="is-preload">
-      <!-- margin -->
       <div>
         <h1></h1>
       </div>
 
-      <!-- Main -->
       <div id="main">
-        <!-- Featured Post -->
         <article class="post featured">
           <header class="major">
             <h2>LIS</h2>
-            <!-- TODO -->
           </header>
+          <div class="app-screenshots">
+            <img src="../images/lis_screenshots_1.png" alt=""/>
+            <img src="../images/lis_screenshots_2.png" alt=""/></br></br>
+          </div>
+          <div class="app-description">
+            <h3>Description</h3>
+            LIS is a german shortcut for "Lernen im Schlaf" (En. "Lerning during the sleep"). It is a bigger project than the 
+            other ones. It contains of the native Android application and a wearable device. The idea is to measure bio-signals 
+            like the heartrate, oxygen saturation and movements during the sleep, track them with the app and process them to identify 
+            the different sleep stages. During specific sleep stages, the app plays vocabulary that was learned previously that day. 
+            The idea came to us while reading a study that showed, that this has a positive effect on the results.</br></br>
+            The app itself receives the values via bluetooth, writes them into files to persist the data, and processes them to detect 
+            the sleep stage. During specific sleep stages, the chosen vocabulary gets played. The app does not have to be active during 
+            this process.</br></br>
+            <h3>Motivation</h3>
+            LIS was the diploma project in school, on which I have worked with two friends. We have worked on this for about 7 months and 
+            finished it with a more than 100 pages documentation. We seperated the project in several parts, whereby my major part was to 
+            develop the application. This was how I got into app development, and how I found the passion for it. This was the biggest project 
+            I have ever worked on, and all of us loved the process.</br></br>
+            <h3>What I learned</h3>
+            <ul>
+              <li>The very basics of the Andorid SDK</li>
+              <li>The programming language Kotlin</li>
+              <li>Very deep understanding of Java</li>
+              <li>How to implement SQLite databases</li>
+              <li>How to use Services and BroadcastReceivers</li>
+              <li>How to use the TextToSpeech class</li>
+              <li>How to implement Bluetooth</li>
+            </ul>
+            <h3>Besides from coding</h3>
+            <ul>
+              <li>How to work in a team (And that it can be difficult sometimes)</li>
+              <li>How to manage a project</li>
+              <li>How to document a project</li>
+              <li>Most important: I found out about one of my passions</li>
+            </ul>
+            <h3>Sidenote</h3>
+            Note, that this was the first application I have ever developed, and continued with my other applications afterwards. 
+            Therefore, it contains a lot of bad practice implementations. Right after we finished the project, I developed a second 
+            version of the app, where I improved a lot of those bad practices (Therefore LIS V2.0). But this was still the beginning of my journey, and in 
+            the meanwhile, I have learned a lot of new stuff which I didn't implement into the app, because we didn't continue with the 
+            project after school had finished. Therefore, there are still a lot of bad practice implementations.</br>
+            Also note that the detection of the sleep stages didn't work 100%, because this was beyond our knowledge at the moment.
+          </div>
         </article>
 
-        <!-- Footer -->
         <footer></footer>
       </div>
 
-      <!-- Footer -->
       <footer id="footer">
         </section>
         <section class="split contact">
@@ -48,7 +86,6 @@
         </section>
       </footer>
 
-      <!-- Copyright -->
       <div id="copyright">
         <ul>
           <li>&copy; Andreas Pribitzer</li>
@@ -56,7 +93,6 @@
         </ul>
     </div>
 
-    <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
