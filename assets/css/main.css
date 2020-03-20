@@ -3901,6 +3901,141 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   margin-top: 60px;
 }
 
+.avtl,
+div.ewrap,
+div.event {
+  box-sizing: border-box;
+}
+.avtl {
+  position: relative;
+  margin: 0 auto;
+}
+
+.avtl::before {
+  content: "";
+  width: 5px;
+  background-color: #8deeee;
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  bottom: 25px;
+}
+
+@media screen and (min-width: 800px) {
+  .avtl::before {
+    left: 50%;
+  }
+}
+
+div.ewrap {
+  padding: 10px 40px;
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-width: 800px) {
+  div.ewrap {
+    left: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  div.ewrap {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  div.right {
+    left: 50%;
+  }
+}
+
+div.event {
+  padding: 20px 30px;
+  background-color: #caf2f2;
+  position: relative;
+  border-radius: 6px;
+}
+
+strong.date {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+}
+p.text {
+  margin: 0;
+}
+p.title {
+  font-size: 1.1em;
+  text-align: left;
+}
+
+div.ewrap::before {
+  content: "";
+  border: 10px solid transparent;
+  border-right-color: #caf2f2;
+  border-left: 0;
+  position: absolute;
+  right: auto;
+  left: 30px;
+  top: 20%;
+}
+@media screen and (min-width: 800px) {
+  div.ewrap::before {
+    border: 10px solid transparent;
+    border-left-color: #caf2f2;
+    border-right: 0;
+    right: 30px;
+    left: auto;
+  }
+}
+div.ewrap.right::before {
+  content: "";
+  border: 10px solid transparent;
+  border-right-color: #caf2f2;
+  border-left: 0;
+  position: absolute;
+  right: auto;
+  left: 30px;
+  top: 20%;
+}
+
+div.ewrap::after {
+  content: "";
+  background: #fff;
+  border: 4px solid #8deeee;
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20%;
+  right: -10px;
+}
+
+@media screen and (max-width: 800px) {
+  div.ewrap::after {
+    right: auto;
+    left: -15px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  div.ewrap.right::after {
+    content: "";
+    background: #fff;
+    border: 4px solid #8deeee;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    right: auto;
+    left: -6px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   #main .value {
     margin-left: 40px;
