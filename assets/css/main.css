@@ -3936,7 +3936,7 @@ div.ewrap {
 
 @media screen and (max-width: 800px) {
   div.ewrap {
-    left: 30px;
+    left: 10px;
   }
 }
 
@@ -3982,6 +3982,7 @@ div.ewrap::before {
   left: 30px;
   top: 20%;
 }
+
 @media screen and (min-width: 800px) {
   div.ewrap::before {
     border: 10px solid transparent;
@@ -4017,7 +4018,7 @@ div.ewrap::after {
 @media screen and (max-width: 800px) {
   div.ewrap::after {
     right: auto;
-    left: -15px;
+    left: 5px;
   }
 }
 
