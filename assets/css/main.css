@@ -3916,7 +3916,6 @@ div.event {
   width: 5px;
   background-color: #8deeee;
   position: absolute;
-  left: 50px;
   top: 25px;
   bottom: 25px;
 }
@@ -4018,7 +4017,7 @@ div.ewrap::after {
 @media screen and (max-width: 800px) {
   div.ewrap::after {
     right: auto;
-    left: 5px;
+    left: -15px;
   }
 }
 
