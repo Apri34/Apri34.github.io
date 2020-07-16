@@ -4090,9 +4090,9 @@ div.ewrap::after {
   width: 70%;
   animation: kotlin 2s;
 }
-#main .sqlite {
-  width: 90%;
-  animation: sqlite 2s;
+#main .sql {
+  width: 90;
+  animation: sql 2s;
 }
 #main .design {
   width: 70%;
@@ -4138,12 +4138,12 @@ div.ewrap::after {
     width: 70%;
   }
 }
-@keyframes sqlite {
+@keyframes sql {
   0% {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 80%;
   }
 }
 @keyframes design {
